@@ -1,0 +1,76 @@
+Вставлена Шапка ФСК ЕЭС с переходом на главную страницу и подписью за моей редакцией
+
+
+<script type="text/javascript">
+	function Loader()
+	</script>
+	<style type="text/css">
+	
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/page.css">
+	<link rel="stylesheet" type="text/css" href="css/block.css">
+
+	
+	body{
+				font-family: 'ArianAMURegular';
+							}
+	body {margin: 0px; min-width: 500px;}
+
+	.logo, .header {
+		border-top: 1px solid #FFFFFF;
+		border-left: 1px solid #FFFFFF;
+		border-right: 1px solid #FFFFFF;
+		font-family: Tahoma, sans-serif;
+		white-space: nowrap;
+	}
+	.logo, .logoFSK, .logoDesign {height: 81px;}
+	.logo, .logoDesign {background-color: #E6E6E6;}
+	
+	.logo {
+    background-repeat: no-repeat;
+    background-image: url("images/logo_background.jpg");
+	}
+		
+	.logoFSK {
+		width: 149px;
+		background-image: url("images/70let_logo.png_");
+		float: left;
+		position: relative;
+		left: 8px;
+		top: 0px;
+	}
+	.logoDesign {float: right;}
+	.logoDesign div {
+		font-weight: 600;
+		color: #0865BE;
+		font-size: 12px;
+		text-align: center;
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-top: 26px;
+	}
+
+	.header {
+		height: 36px;
+		border-bottom: 1px solid #FFFFFF;
+		background-color: #014991;
+		cursor: hand;
+	}
+	.header div {
+		text-align: center;
+		padding-top: 6px;
+		font-size: 18px;
+	}
+	.header a {
+		color: #F0FFFF;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body onload="parent.Loader()">
+<div class="logo">
+	<div class="logoFSK"></div>
+	<div class="logoDesign">
+		<div>Code & design<br>&copy; &laquo;Sharifhanov Artem&raquo; - &laquo;PNIPU&raquo; <br>2017-2018</div>
+	</div>
+</div>
