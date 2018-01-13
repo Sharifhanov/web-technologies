@@ -1,0 +1,12 @@
+Разобрался с регулярными выражениями, сделал суперпростой парсер:
+
+<?php
+	$str = file_get_contents('http://59zimaleto.ru/catalog/smesiteli/smesiteli_dlya_vanny_i_dusha/');
+	
+		#var_dump($str);
+	preg_match_all('#<div[^>]+?class\s*?=\s*?(["\'])preview_text\1[^>]*?>(.+?)</div>#su', $str, $res);
+	preg_match_all('#<div[^>]+?class\s*?=\s*?(["\'])price\1[^>]*?>(.+?)</div>#su', $str, $cen);
+
+	
+	var_dump($res,$cen);
+?>
