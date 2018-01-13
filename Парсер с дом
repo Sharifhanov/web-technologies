@@ -1,0 +1,17 @@
+Сделал то же самое с приминением библиотеки simple_html_dom
+<?php
+// example of how to use basic selector to retrieve HTML contents
+include('simple_html_dom.php');
+ 
+// get DOM from URL or file
+$html = file_get_html('http://59zimaleto.ru/catalog/smesiteli/smesiteli_dlya_vanny_i_dusha/');
+
+
+// find all image with full tag
+foreach($html->find('img') as $e)
+    echo $e->outertext . '<br>';
+
+
+
+
+?>
